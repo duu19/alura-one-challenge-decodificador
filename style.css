@@ -24,3 +24,51 @@ body {
     margin-left: 44px;
 }
 
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.section-textarea textarea {
+    background: var(--background-color);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-top: 90px;
+    margin-left: 210px;
+    border: none;
+    text-transform: lowercase;
+    color: var(--main-color);
+}
+
+.btns {
+    margin-left: 210px;
+}
+
+.exclam-icon {
+    display: flex;
+    align-items: center;
+    color: var(--terciary-color);
+}
+
+.message-bg {
+    background: #ffffff;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 50px;
+}
+.message {
+    background: url(img/products.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 550px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    color: var(--terciary-color);
+    font-size: 30px;
+}
