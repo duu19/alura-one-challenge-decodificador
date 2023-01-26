@@ -21,27 +21,27 @@
     <main class="main-bg">
         <section class="textarea1">
             <div>
-                <textarea name="mensagem" id="input-texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                <textarea name="mensagem" id="input-text" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
                 <br>
                 <br>
                 <span class="exclam-icon" ><img class="exclam-img" src="img/exclam.png" alt="exclamation icon"> Apenas letras minúsculas e sem acento. </span>
                 <div class="btns">
-                    <button class="cripto">Criptografar</button>
-                    <button class="descripto">Descriptografar</button>
+                    <button onclick="cripto()" class="cripto">Criptografar</button>
+                    <button onclick="descripto()" class="descripto">Descriptografar</button>
                 </div>
             </div>
             
         </section>
 
         <section class="message-bg">
-            <div class="div-message">
+            <div class="div-message" id="message-text">
                 <h2>Nenhuma mensagem encontrada</h2>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
-            <div id="output">
-                <textarea id="output-texto" class="message">
+            <div>
+                <textarea id="output-text" class="message">
                 </textarea>
-                <button class="btn-copy" id="copiar">Copiar</button>
+                <button onclick="copy()" class="btn-copy" id="copiar">Copiar</button>
             </div>
         </section>
 
@@ -49,8 +49,8 @@
 
     <footer class="footer-bg">
         <ul class="footer-box">
-            <li><a href="#"<i class="bi bi-github"></i></a></li>
-            <li><a href="#" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://github.com/duu19" target="_blank"<i class="bi bi-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/eduardo-henrique-162433252/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
         </ul>
     </footer>
     <script src="script.js"></script>

@@ -48,6 +48,7 @@ body {
     background:  transparent;
     border: 2px solid white;
     font-family: 'VT323', monospace;
+    padding: 20px;
     border-radius: 10px;
     font-size: 1.5rem;
     margin-top: 90px;
@@ -72,21 +73,28 @@ body {
     border-radius: 20px;
     width: 320px;
     font-family: 'VT323', monospace;
-    background: var(--main-color);
+    background: transparent;
     color: #ffffff;
     font-size: 1.3rem;
-    border: 1px solid var(--main-color);
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .descripto {
     padding: 20px;
     border-radius: 20px;
     width: 320px;
-    background: var(--fourth-color);
-    color: var(--main-color);
+    background: transparent;
+    color: white;
     font-size: 1.3rem;
-    border: 1px solid var(--main-color);
+    border: 1px solid white;
     font-family: 'VT323', monospace;
+    cursor: pointer;
+}
+
+.descripto:hover, .cripto:hover {
+    transition: 0.3s;
+    background: #260925;
 }
 
 .exclam-img {
@@ -121,7 +129,7 @@ img {
     height: 550px;
     width: 400px;
     border-radius: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -142,7 +150,7 @@ img {
     height: 550px;
     width: 400px;
     border-radius: 10px;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -166,6 +174,12 @@ img {
     margin: 0 auto;
 }
 
+.btn-copy:hover {
+    transition: 0.3s;
+    background: #161324;
+    cursor: pointer;
+}
+
 .footer-bg {
     background: transparent;
     text-align: center;
@@ -186,7 +200,7 @@ img {
 }
 
 .footer-box a:hover {
-    color: var(--main-color);
+    color: rebeccapurple;
 }
 
 
@@ -195,4 +209,41 @@ img {
         flex-wrap: wrap;
         height: 1200px;
     }
+
+    .textarea1 {
+        height: 540px;
+    }
 }
+
+@media (max-width: 750px) {
+    .cripto, .descripto {
+        width: 180px;
+    }
+}
+
+@media (max-width: 500px) {
+    .textarea1 {
+        height: 400px;
+    }
+    .textarea1 textarea {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    #output-text {
+        width: 320px;
+    }
+    span.exclam-icon {
+        font-size: 1rem;
+    }
+    .cripto, .descripto {
+        width: 140px;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
