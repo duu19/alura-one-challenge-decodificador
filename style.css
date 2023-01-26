@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +10,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background-image: url(img/background.jpg);
+    background-size: cover;
 }
 
 :root {
@@ -20,7 +23,7 @@ body {
 }
 
 .header-bg {
-    background: var(--background-color);
+    background: transparent;
 }
 
 .logo {
@@ -29,7 +32,6 @@ body {
 }
 
 .main-bg {
-    background: var(--background-color);
     height: 600px;
     width: 100%;
     display: flex;
@@ -43,13 +45,19 @@ body {
 
 .textarea1 textarea {
     height: 310px;
-    background: var(--background-color);
+    background:  transparent;
+    border: 2px solid white;
+    font-family: 'VT323', monospace;
     border-radius: 10px;
     font-size: 1.5rem;
     margin-top: 90px;
     border: none;
     text-transform: lowercase;
-    color: var(--main-color);
+    color: var(--fourth-color);
+}
+
+::placeholder {
+    color: var(--background-color);
 }
 
 .btns {
@@ -63,8 +71,10 @@ body {
     padding: 20px;
     border-radius: 20px;
     width: 320px;
+    font-family: 'VT323', monospace;
     background: var(--main-color);
     color: #ffffff;
+    font-size: 1.3rem;
     border: 1px solid var(--main-color);
 }
 
@@ -74,17 +84,22 @@ body {
     width: 320px;
     background: var(--fourth-color);
     color: var(--main-color);
+    font-size: 1.3rem;
     border: 1px solid var(--main-color);
+    font-family: 'VT323', monospace;
 }
 
 .exclam-img {
     margin-right: 5px;
 }
 
-.exclam-icon {
+span.exclam-icon {
     display: flex;
     align-items: center;
-    color: var(--terciary-color);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'VT323', monospace;
+    font-size: 1.7rem;
 }
 
 img {
@@ -96,8 +111,13 @@ img {
 }
 
 .div-message {
-    background: #ffffff;
-    color: var(--secundary-color);
+    background: url(img/gengar2.gif);
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    background-position: top;
+    font-size: 1.5rem;
+    font-family: 'VT323', monospace;
     height: 550px;
     width: 400px;
     border-radius: 10px;
@@ -109,14 +129,45 @@ img {
     box-shadow: 0px 10px 13px -7px #000000;
 }
 
+.div-message h2 {
+    margin-top: 50px;
+}
 .message {
     border-radius: 10px;
     padding: 20px;
+    background: transparent;
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 2rem;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 10px 13px -7px #000000;
+
+}
+
+.btn-copy {
+    padding: 20px;
+    border-radius: 20px;
+    width: 160px;
+    background: transparent;
+    color: var(--background-color);
+    font-size: 1.3rem;
+    font-family: 'VT323', monospace;
+    border: 1px solid var(--background-color);
+    position: relative;
+    bottom: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 .footer-bg {
-    background: var(--background-color);
+    background: transparent;
     text-align: center;
 }
 
@@ -130,7 +181,7 @@ img {
 }
 
 .footer-box a {
-    color: var(--secundary-color);
+    color: white;
     transition: 0.3s;
 }
 

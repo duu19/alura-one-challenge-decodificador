@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura ONE Challenge - Decodificador</title>
+    <title>Alura ONE - Decodificador</title>
     <!-- css -->
     <link rel="stylesheet" href="style.css">
     <!-- favicon -->
@@ -15,13 +15,13 @@
 </head>
 <body>
     <header class="header-bg">
-        <nav><img class="logo" src="img/logo.png" alt="logo alura"></nav>
+        <nav><img class="logo" src="img/31.10.13---Bouncy-Lavender-Town-Ghost-Icon.gif" alt="logo alura"></nav>
     </header>
 
     <main class="main-bg">
         <section class="textarea1">
             <div>
-                <textarea name="mensagem" id="" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                <textarea name="mensagem" id="input-texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
                 <br>
                 <br>
                 <span class="exclam-icon" ><img class="exclam-img" src="img/exclam.png" alt="exclamation icon"> Apenas letras minúsculas e sem acento. </span>
@@ -35,21 +35,24 @@
 
         <section class="message-bg">
             <div class="div-message">
-                <img src="img/products.svg" alt="produtos">
                 <h2>Nenhuma mensagem encontrada</h2>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
-            <textarea class="message" name="" id="" cols="50" rows="33">
-            </textarea>
+            <div id="output">
+                <textarea id="output-texto" class="message">
+                </textarea>
+                <button class="btn-copy" id="copiar">Copiar</button>
+            </div>
         </section>
 
     </main>
 
     <footer class="footer-bg">
         <ul class="footer-box">
-            <li><a href="github.com/duu19" target="_blank"><i class="bi bi-github"></i></a></li>
-            <li><a href="linkedin.com/in/duhenrique19" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="#"<i class="bi bi-github"></i></a></li>
+            <li><a href="#" target="_blank"><i class="bi bi-linkedin"></i></a></li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
