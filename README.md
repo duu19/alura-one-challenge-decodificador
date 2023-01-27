@@ -1,8 +1,4 @@
-Sprint 01
-Challenge-Oracle-ONE
-
-Desafio concluído
-https://duu19.github.io/alura-one-challenge-decodificador/
+<h1>Challenge ONE Alura</h1>
 
 Esta é uma aplicação que criptografa textos, assim o usuário poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
@@ -14,9 +10,10 @@ A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 
 Requisitos:
-Deve funcionar apenas com letras minúsculas
-Não devem ser utilizados letras com acentos nem caracteres especiais
-Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+<li>Deve funcionar apenas com letras minúsculas</li>
+<li>Não devem ser utilizados letras com acentos nem caracteres especiais</li>
+<li>Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.</li>
+<br>
 Por exemplo:
 "gato" => "gaitober"
 gaitober" => "gato"
