@@ -28,7 +28,8 @@ function descripto() {
 }
 
 function copy() {
-  var textCopy = document.getElementById('output-text').value;
+  var textCopy = document.getElementById('output-text').innerHTML;
   navigator.clipboard.writeText(textCopy);
   alert('Texto copiado com sucesso.');
 }
+
