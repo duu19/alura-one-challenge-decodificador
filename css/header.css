@@ -1,0 +1,25 @@
+.header-bg {
+    background: transparent;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+}
+
+.navbar-menu {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu ul {
+    list-style: none;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+}

@@ -1,0 +1,23 @@
+.footer-bg {
+    margin-top: 1.5rem;
+    background: transparent;
+    text-align: center;
+}
+
+.footer-box {
+    font-size: 2rem;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-box a {
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-box a:hover {
+    color: rebeccapurple;
+}
