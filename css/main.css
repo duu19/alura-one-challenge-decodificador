@@ -1,5 +1,5 @@
 .main-bg {
-    height: 75vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,11 @@
     height: 500px;
 }
 
+.box2 h2 {
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
 .textarea-div {
     height: 300px;
     width: 540px;
@@ -24,10 +29,19 @@
     font-family: 'VT323', monospace;
     padding: 20px;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: 90px;
     text-transform: lowercase;
-    color: var(--fourth-color);
+    color: #F1C442;
+}
+
+.textarea-div:focus-visible {
+    outline: none;
+    border: 1px solid #F1C442;
+}
+
+.textarea-div::placeholder {
+    color: whitesmoke;
 }
 
 span.exclam-icon {
@@ -75,6 +89,18 @@ span.exclam-icon {
     cursor: pointer;
 }
 
+.cripto:hover {
+    transition: 0.4s;
+    color: #F1C442;
+    border: 1px solid #F1C442;
+}
+
+.descripto:hover {
+    transition: 0.4s;
+    color: #F1C442;
+    border: 1px solid #F1C442;
+}
+
 .div-message {
     color: white;
     border: 1px solid white;
@@ -105,11 +131,18 @@ span.exclam-icon {
     z-index: 999;
 }
 
+.btn-copy:hover {
+    transition: 0.4s;
+    color: #F1C442;
+    border: 1px solid #F1C442;
+}
+
 .message-img {
     display: block;
     margin: 0 auto;
-    width: 400px;
+    height: 215px;
     margin-bottom: 4rem;
+    object-fit: contain;
 }
 
 @media (max-width: 1000px) {
@@ -129,7 +162,7 @@ span.exclam-icon {
         width: 400px;
     }
     .message-img {
-        width: 250px;
+        height: 150px;
     }
 }
 
@@ -153,6 +186,9 @@ span.exclam-icon {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .message-img{
+        height: 100px;
     }
     .btn-copy {
         padding: 10px;

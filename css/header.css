@@ -20,6 +20,11 @@
     text-decoration: none;
 }
 
+.navbar-menu a:hover {
+    transition: 0.4s;
+    color: #F1C442;
+}
+
 .logo {
     width: 100px;
 }
