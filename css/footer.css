@@ -1,7 +1,6 @@
 .footer-bg {
-    margin-top: 1.5rem;
-    background: transparent;
-    text-align: center;
+    height: auto;
+    width: auto;
 }
 
 .footer-box {
