@@ -19,7 +19,7 @@ html {
     margin: 0 auto;
     min-width: 320px;
     max-width: 1400px;
-    height: auto;
+    height: 100vh;
     font-family: 'Inter', sans-serif;
     background-position: center center;
     background-repeat: no-repeat;
