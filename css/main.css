@@ -25,8 +25,7 @@
     height: 300px;
     width: 540px;
     background: transparent;
-    border: 1px solid var(--fourth-color);
-    font-family: 'VT323', monospace;
+    border: 2px solid white;
     padding: 20px;
     border-radius: 10px;
     font-size: 1.7rem;
@@ -37,7 +36,7 @@
 
 .textarea-div:focus-visible {
     outline: none;
-    border: 1px solid #F1C442;
+    border: 2px solid #F1C442;
 }
 
 .textarea-div::placeholder {
@@ -50,7 +49,6 @@ span.exclam-icon {
     margin-top: 1rem;
     color: white;
     text-shadow: 2px 2px 5px black;
-    font-family: 'VT323', monospace;
     font-size: 1.7rem;
 }
 
@@ -69,11 +67,10 @@ span.exclam-icon {
     padding: 20px;
     border-radius: 20px;
     width: 320px;
-    font-family: 'VT323', monospace;
     background: transparent;
-    color: #ffffff;
+    color: white;
     font-size: 1.3rem;
-    border: 1px solid white;
+    border: 2px solid white;
     cursor: pointer;
 }
 
@@ -84,29 +81,29 @@ span.exclam-icon {
     background: transparent;
     color: white;
     font-size: 1.3rem;
-    border: 1px solid white;
-    font-family: 'VT323', monospace;
+    border: 2px solid white;
     cursor: pointer;
 }
 
 .cripto:hover {
     transition: 0.4s;
     color: #F1C442;
-    border: 1px solid #F1C442;
+    border: 2px solid #F1C442;
+    text-shadow: 2px 2px 5px black;
 }
 
 .descripto:hover {
     transition: 0.4s;
     color: #F1C442;
-    border: 1px solid #F1C442;
+    border: 2px solid #F1C442;
+    text-shadow: 2px 2px 5px black;
 }
 
 .div-message {
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     text-shadow: 2px 2px 5px black;
-    font-size: 1.5rem;
-    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
     height: 500px;
     width: 100%;
     border-radius: 10px;
@@ -119,10 +116,10 @@ span.exclam-icon {
     border-radius: 20px;
     width: 160px;
     background: transparent;
-    color: var(--background-color);
+    color: white;
     font-size: 1.3rem;
-    font-family: 'VT323', monospace;
-    border: 1px solid var(--background-color);
+    border: 2px solid white;
+    text-shadow: 2px 2px 5px black;
     position: relative;
     bottom: 85px;
     display: block;
@@ -134,7 +131,8 @@ span.exclam-icon {
 .btn-copy:hover {
     transition: 0.4s;
     color: #F1C442;
-    border: 1px solid #F1C442;
+    border: 2px solid #F1C442;
+    text-shadow: 2px 2px 5px black;
 }
 
 .message-img {

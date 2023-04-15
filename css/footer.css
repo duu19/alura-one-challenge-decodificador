@@ -13,10 +13,10 @@
 }
 
 .footer-box a {
-    color: white;
+    color: #F1C442;
     transition: 0.3s;
 }
 
 .footer-box a:hover {
-    color: #F1C442;
+    color: #fff;
 }

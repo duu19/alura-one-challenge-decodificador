@@ -1,6 +1,5 @@
 .header-bg {
     background: transparent;
-    font-family: 'VT323', monospace;
     font-size: 1.5rem;
 }
 
@@ -16,15 +15,10 @@
 }
 
 .navbar-menu a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
-.navbar-menu a:hover {
-    transition: 0.4s;
-    color: #F1C442;
-}
-
 .logo {
-    width: 100px;
+    width: 60px;
 }
