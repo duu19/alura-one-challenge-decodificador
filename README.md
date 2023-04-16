@@ -1,6 +1,8 @@
-<h1>Challenge ONE Alura</h1>
+<h1>Decodificador - ONE Alura</h1>
 
-Esta é uma aplicação que criptografa textos, assim o usuário poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
+Esta é uma aplicação que criptografa textos, desenvolvida com HTML, CSS e JavaScript.
+
+<img src="img/print.png" alt="" style="width: 550px;">
 
 As "chaves" de criptografia que utilizaremos são:
 A letra "e" é convertida para "enter"
@@ -9,17 +11,13 @@ A letra "a" é convertida para "ai"
 A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 
-Requisitos:
-<li>Deve funcionar apenas com letras minúsculas</li>
+Funcionamento:
+<li>Funciona apenas com letras minúsculas</li>
 <li>Não devem ser utilizados letras com acentos nem caracteres especiais</li>
-<li>Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.</li>
+
 <br>
 Por exemplo:
 "gato" => "gaitober"
 gaitober" => "gato"
 
-A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções O resultado deve ser exibido na tela. Extras:
-
-Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
-
-
+<img src="img/quasimoto.gif" alt="" style="width: 200px;">
