@@ -193,3 +193,23 @@ span.exclam-icon {
         bottom: 65px;
     }
 }
+
+@media (max-width: 500px) {
+    span.exclam-icon {
+        font-size: 1rem;
+        width: 40ch;
+    }
+}
+
+@media (max-width: 350px) {
+    .textarea-div {
+        width: 300px;
+    }
+    span.exclam-icon {
+        width: 34ch;
+    }
+    .cripto, .descripto {
+        font-size: 12px;
+        width: 125px;
+    }
+}
