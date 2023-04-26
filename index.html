@@ -27,10 +27,10 @@
     <main class="main-bg container">
         <div class="box1">
             <textarea class="textarea-div" name="mensagem" id="input-text" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
-            <span class="exclam-icon">
-                <img class="exclam-img" src="img/exclam.png" alt="exclam">
-                Apenas letras minúsculas e sem acento.
-            </span>
+            <div class="exclam-icon">
+                <i class="bi bi-exclamation-circle-fill icon-exclam-bootstrap"></i>
+                <span class="span-text">Apenas letras minúsculas e sem acento.</span>
+            </div>
             <div class="btns">
                 <button onclick="cripto()" class="cripto">Criptografar</button>
                 <button onclick="descripto()" class="descripto">Descriptografar</button>
@@ -47,7 +47,7 @@
     </main>
     <!-- footer -->
     <footer class="footer-bg">
-        <ul class="footer-box">
+        <ul class="footer-box container">
             <li><a href="https://github.com/duu19" target="_blank"<i class="bi bi-github"></i></a></li>
             <li><a href="https://www.linkedin.com/in/eduardo-henrique-162433252/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
         </ul>

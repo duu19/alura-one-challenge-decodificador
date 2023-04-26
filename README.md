@@ -1,6 +1,6 @@
 <h1>Decodificador - ONE Alura</h1>
 
-Esta é uma aplicação que criptografa textos, desenvolvida com HTML, CSS e JavaScript.
+Essa é uma aplicação que criptografa textos, desenvolvida com HTML, CSS e JavaScript.
 
 <img src="img/print.png" alt="" style="width: 550px;">
 
