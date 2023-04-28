@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+.box-nav {
+    display: flex;
+    gap: 20px;
+}
+
 .navbar-menu ul {
     list-style: none;
 }
@@ -26,6 +31,16 @@
 
 .logo {
     width: 60px;
+}
+
+.btn-background {
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #F1C442;
+    color: #fff;
+    padding: 5px 5px;
 }
 
 @media (max-width: 500px) {

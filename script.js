@@ -33,3 +33,15 @@ function copy() {
   alert('Texto copiado com sucesso.');
 }
 
+let counter = 0;
+let imagem = document.querySelector('body');
+
+function changeBackground() {
+  if (counter % 2 == 0) {
+    imagem.style.backgroundImage = "url(../img/light.jpg)";
+  } else {
+    imagem.style.backgroundImage = "url(../img/teste2.webp)";
+  }
+  counter++;
+}
+
