@@ -1,5 +1,6 @@
 var textInput = document.querySelector('#input-text');
 var outInput = document.querySelector('#output-text');
+var originalText = '';
 
 function cripto() {
   var texto = textInput.value;
@@ -11,6 +12,7 @@ function cripto() {
     .replace(/o/g, 'ober')
     .replace(/u/g, 'ufat');
 
+  originalText = texto;
   document.getElementById('output-text').innerHTML = resultCripto;
 }
 
@@ -24,7 +26,13 @@ function descripto() {
     .replace(/ober/g, 'o')
     .replace(/ufat/g, 'u');
 
+  originalText = texto;
   document.getElementById('output-text').innerHTML = resultDescripto;
+}
+
+function reset() {
+  textInput.value = '';
+  document.getElementById('output-text').innerHTML = '<img class="message-img" src="img/quasimoto.gif"alt="gif"><h2>Nenhuma mensagem encontrada</h2><p>Digite um texto que você deseja criptografar ou descriptografar.</p>';
 }
 
 function copy() {
@@ -44,4 +52,3 @@ function changeBackground() {
   }
   counter++;
 }
-

@@ -20,40 +20,38 @@
             <img class="logo" src="img/quas-logo.gif" alt="logo alura">
             <div class="box-nav">
                 <button class="btn-background" onclick="changeBackground()">mudar tema</button>
-                <ul>
-                    <li><a href="https://github.com/duu19">DEV</a></li>
-                </ul>
             </div>
         </nav>
     </header>
 
     <!-- conteudo principal -->
     <main class="main-bg container">
-        <div class="box-divs">
-            <div class="box1">
-                <textarea class="textarea-div" name="mensagem" id="input-text" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
-
-                <div class="btns-box">
-                    <div class="exclam-icon">
-                        <i class="bi bi-exclamation-circle-fill icon-exclam-bootstrap"></i>
-                        <span class="span-text">Apenas letras minúsculas e sem acento.</span>
-                    </div>
-                    <div class="btns">
-                        <button onclick="cripto()" class="cripto">Criptografar</button>
-                        <button onclick="descripto()" class="descripto">Descriptografar</button>
+            <div class="box-divs">
+                <div class="box1">
+                    <textarea class="textarea-div" name="mensagem" id="input-text" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                    <div class="btns-box">
+                        <div class="exclam-icon">
+                            <i class="bi bi-exclamation-circle-fill icon-exclam-bootstrap"></i>
+                            <span class="span-text">Apenas letras minúsculas e sem acento.</span>
+                        </div>
+                        <div class="btns">
+                            <button onclick="cripto()" class="cripto">Criptografar</button>
+                            <button onclick="descripto()" class="descripto">Descriptografar</button>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="box2">
-                <div class="div-message" id="output-text">
-                    <img class="message-img" src="img/quasimoto.gif"alt="gif">
-                    <h2>Nenhuma mensagem encontrada</h2>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-                    <button onclick="copy()" class="btn-copy" id="copiar">Copiar</button>
+                <div class="box2">
+                    <div class="div-message" id="output-text">
+                        <img class="message-img" src="img/quasimoto.gif"alt="gif">
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                    <div class="btn-box">
+                        <button onclick="copy()" class="btn-copy" id="copiar">Copiar</button>
+                        <button class="btn-copy" onclick="reset()">Resetar</button>
+                    </div>
                 </div>
             </div>
-        </div>
     </main>
     <!-- footer -->
     <footer class="footer-bg">
